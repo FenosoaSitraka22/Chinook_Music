@@ -1,46 +1,16 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-#Reponses
+Reponses
  
 a) Niveau facile
-Album.count
-=>347
-Track.find_by(title: "White Room").artist
-=>Eric Clapton
-Track.find_by(duration:  188133).title
-=>Perfect
-Album.find_by(title: "Use Your Illusion II").artist
-=>Guns N Roses
+* 347
+*Eric Clapton
+*Perfect
+*Guns N Roses
 
 b) Niveau moyen
- Album.where("title like ?", "%Great%")
-=>13
-=>Album.where("title like ?", "%music%").destroy_all
-=>Album.where("title like ?", "%music%") => 2
-=>Track.where(duration: 158589).count => 0
+*13
+*Album.where("title like ?", "%music%").destroy_all
+*Album.where("title like ?", "%music%") => 2
+*Track.where(duration: 158589).count => 0
 
 c) Niveau dificile
 

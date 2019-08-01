@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  string: MyString
+  album: MyString
+  string: MyString
+  artist: MyString
+  string: MyString
+  duration: 1
+  size: 1
+  price: MyString
+  float: MyString
+
+two:
+  title: MyString
+  string: MyString
+  album: MyString
+  string: MyString
+  artist: MyString
+  string: MyString
+  duration: 1
+  size: 1
+  price: MyString
+  float: MyString
